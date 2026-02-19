@@ -12,6 +12,7 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.57.1",
     "appwrite": "^22.3.0",
     "vue": "beta"
   },
@@ -28,7 +29,7 @@
     "vue-tsc": "^3.2.4"
   },
   "engines": {
-    "node": ">=18 <21"
+    "node": "^20.19.0 || >=22.12.0"
   },
   "overrides": {
     "vue": "beta",

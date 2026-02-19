@@ -5,6 +5,7 @@
     "": {
       "name": "unencode",
       "dependencies": {
+        "@rollup/rollup-linux-x64-gnu": "^4.57.1",
         "appwrite": "^22.3.0",
         "vue": "beta",
       },
